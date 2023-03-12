@@ -1,0 +1,116 @@
+
+main {
+    display: flex;
+    max-width: 1324px;
+    flex-wrap: wrap;
+    min-width: 320px;
+    align-items: stretch;
+    flex-grow:1;
+
+    .section-left {
+    outline:solid #444 2px;
+    flex: 1;
+    min-width: 320px;
+
+}
+.section-right {
+    outline:solid #444 2px;
+    flex:2;
+    min-width: 320px;
+
+}
+.avatar{
+    order:1;
+}
+.avatar-discription{
+    order:2;
+}
+.sertificate{
+    order:3;
+}
+.projects{
+    order:4;
+}
+.competention{
+    order:5;
+}
+.calculater{
+    order:6;
+}
+.feedback{
+    order:7;
+    width: 100%;
+    outline: solid #444 2px;
+}
+}
+
+@media(max-width:1024px){
+main {
+    
+  
+.avatar{
+    order:1;
+}
+.avatar-discription{
+    order:2;
+}
+.sertificate{
+    order:3;
+}
+.projects{
+    order:5;
+    width: 100%;
+    flex: none;
+}
+.competention{
+    order:4;
+}
+.calculater{
+    order:6;
+    width: 100%;
+}
+.feedback{
+    order:7;
+    width: 100%;
+}
+}
+}
+
+@media(max-width:425px){
+main {
+   
+        .section-left {
+    
+    flex: 1;
+}
+.section-right {
+   
+   flex: 1;
+}
+.avatar{
+    order:1;
+}
+.avatar-discription{
+    order:2;
+}
+.sertificate{
+    order:3;
+}
+.projects{
+    order:4;
+    
+    flex: none;
+}
+.competention{
+    order:3;
+}
+.calculater{
+    order:6;
+    width: 100%;
+}
+.feedback{
+    order:7;
+    width: 100%;
+}
+}
+}
