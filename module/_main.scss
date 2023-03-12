@@ -4,19 +4,23 @@ main {
     max-width: 1324px;
     flex-wrap: wrap;
     min-width: 320px;
-    align-items: stretch;
+  align-items: stretch;
+
     flex-grow:1;
 
     .section-left {
     outline:solid #444 2px;
-    flex: 1;
-    min-width: 320px;
+    // flex: 1;
+    width: 33%;
+min-width: 320px;
 
 }
 .section-right {
-    outline:solid #444 2px;
-    flex:2;
-    min-width: 320px;
+     outline:solid #444 2px;
+    // flex:2;
+   
+    width: 67%;
+min-width: 320px;
 
 }
 .avatar{
@@ -47,7 +51,19 @@ main {
 @media(max-width:1024px){
 main {
     
-  
+    .section-left {
+    outline:solid #444 2px;
+    flex: 1;
+    min-width: 320px;
+
+}
+.section-right {
+    outline:solid #444 2px;
+    flex:2;
+   
+min-width: 320px;
+
+}
 .avatar{
     order:1;
 }
@@ -81,11 +97,13 @@ main {
    
         .section-left {
     
+//    width: 100%;
     flex: 1;
 }
 .section-right {
    
    flex: 1;
+//    width: 100%;
 }
 .avatar{
     order:1;
