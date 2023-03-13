@@ -17,6 +17,15 @@
 
 html, body {
   background-color: #ffffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .wrapper {
@@ -125,8 +134,6 @@ html, body {
 
 @media (max-width: 1024px) {
   .wrapper header {
-    padding-right: 15px;
-    padding-left: 15px;
     margin-bottom: 10px;
   }
   .wrapper header .header-container a img {
@@ -196,8 +203,6 @@ html, body {
 
 @media (max-width: 425px) {
   .wrapper header {
-    padding-right: 10px;
-    padding-left: 10px;
     margin-bottom: 10px;
   }
   .wrapper header .header-container a img {
@@ -449,7 +454,6 @@ html, body {
 
 .wrapper main .main-box .sertificate .containerslider {
   max-width: 1009px;
-  height: 100%;
   margin: 0 auto;
   background-image: url("./images/sliderbg.png");
   background-position: center;
@@ -933,7 +937,6 @@ html, body {
   }
   .wrapper main .main-box .sertificate .containerslider {
     max-width: 1009px;
-    height: 100%;
     margin: 0 auto;
     background-image: url("./images/sliderbg.png");
     background-position: center;
@@ -1526,7 +1529,6 @@ html, body {
 }
 
 .wrapper footer .footer-container {
-  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1552,10 +1554,10 @@ html, body {
 @media (max-width: 1024px) {
   .wrapper footer {
     text-align: center;
+    width: 100%;
     min-width: 324px;
   }
   .wrapper footer .footer-container {
-    width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1567,8 +1569,6 @@ html, body {
             align-items: center;
     padding-top: 40px;
     padding-bottom: 40px;
-    padding-left: 10px;
-    padding-right: 10px;
   }
   .wrapper footer .footer-container p {
     font-family: 'Roboto';
@@ -1598,8 +1598,6 @@ html, body {
             align-items: center;
     padding-top: 40px;
     padding-bottom: 40px;
-    padding-left: 10px;
-    padding-right: 10px;
   }
   .wrapper footer .footer-container p {
     font-family: 'Roboto';
@@ -1622,8 +1620,8 @@ html, body {
 
 @media (max-width: 425px) {
   .wrapper {
-    padding-left: 0;
-    padding-right: 0;
+    padding-left: 10px;
+    padding-right: 10px;
     background-position: bottom 150px center;
     background-size: contain;
   }
