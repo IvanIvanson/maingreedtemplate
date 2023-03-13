@@ -392,7 +392,7 @@ html, body {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   min-width: 320px;
-  margin-top: 20px;
+  margin-top: 150px;
   -webkit-box-align: stretch;
       -ms-flex-align: stretch;
           align-items: stretch;
@@ -757,7 +757,7 @@ html, body {
   border: none;
 }
 
-@media (max-width: 2000px) {
+@media (max-width: 1700px) {
   .wrapper main {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -875,7 +875,7 @@ html, body {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
     min-width: 320px;
-    margin-top: 150px;
+    margin-top: 50px;
     -webkit-box-align: stretch;
         -ms-flex-align: stretch;
             align-items: stretch;
@@ -1070,7 +1070,7 @@ html, body {
   }
 }
 
-@media (max-width: 2000px) and (max-width: 425px) {
+@media (max-width: 1700px) and (max-width: 425px) {
   .wrapper main .main-box .sertificate .containerslider .slider .slider__arrow::before {
     content: '';
     width: 10px;
@@ -1090,7 +1090,7 @@ html, body {
   }
 }
 
-@media (max-width: 2000px) {
+@media (max-width: 1700px) {
   .wrapper main .main-box .projects {
     -webkit-box-ordinal-group: 3;
         -ms-flex-order: 2;

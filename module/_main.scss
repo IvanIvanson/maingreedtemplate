@@ -78,7 +78,7 @@ color: #1C2127;
 
 .main-box{
         @include flexmain;
-margin-top: 20px;
+margin-top: 150px;
   align-items: stretch;
     .section-left {
     // outline:solid #444 2px;
@@ -211,7 +211,7 @@ border:none;
 }
 
 
-@media(max-width:2000px){
+@media(max-width:1700px){
 main {
     @include flexmain;
     align-items: stretch;
@@ -291,7 +291,7 @@ color: #1C2127;
 
 .main-box{
         @include flexmain;
-margin-top: 150px;
+margin-top: 50px;
   align-items: stretch;
     .section-left {
     // outline:solid #444 2px;
