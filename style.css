@@ -318,10 +318,20 @@ html, body {
   -webkit-box-ordinal-group: 2;
       -ms-flex-order: 1;
           order: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .wrapper main .prime .avatar img {
   width: 100%;
+  margin: 0 auto;
 }
 
 .wrapper main .prime .section-right {
@@ -1497,7 +1507,7 @@ html, body {
 
 .wrapper footer {
   text-align: center;
-  max-width: 1324px;
+  max-width: 100%;
   min-width: 324px;
 }
 
@@ -1528,7 +1538,6 @@ html, body {
 @media (max-width: 1024px) {
   .wrapper footer {
     text-align: center;
-    max-width: 1324px;
     min-width: 324px;
   }
   .wrapper footer .footer-container {
@@ -1560,7 +1569,6 @@ html, body {
 @media (max-width: 425px) {
   .wrapper footer {
     text-align: center;
-    max-width: 1324px;
     min-width: 324px;
   }
   .wrapper footer .footer-container {
