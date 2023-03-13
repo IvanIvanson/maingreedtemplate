@@ -411,11 +411,13 @@ html, body {
 .wrapper main .main-box .section-left {
   width: 33.3%;
   min-width: 320px;
+  padding-bottom: 50px;
 }
 
 .wrapper main .main-box .section-right {
   width: 66.7%;
   min-width: 320px;
+  padding-bottom: 50px;
 }
 
 .wrapper main .main-box .sertificate {
@@ -447,10 +449,16 @@ html, body {
 
 .wrapper main .main-box .sertificate .containerslider {
   max-width: 1009px;
+  height: 100%;
   margin: 0 auto;
+  background-image: url("./images/sliderbg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .wrapper main .main-box .sertificate .containerslider .slider {
+  height: 100%;
   position: relative;
   overflow: hidden;
 }
@@ -925,9 +933,15 @@ html, body {
   }
   .wrapper main .main-box .sertificate .containerslider {
     max-width: 1009px;
+    height: 100%;
     margin: 0 auto;
+    background-image: url("./images/sliderbg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
   .wrapper main .main-box .sertificate .containerslider .slider {
+    height: 100%;
     position: relative;
     overflow: hidden;
   }

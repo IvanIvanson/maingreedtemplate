@@ -1,8 +1,14 @@
 @import 'vars';
 .containerslider{
     max-width: 1009px;
+    height: 100%;
     margin: 0 auto;
+    background-image:url('./images/sliderbg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 .slider{
+    height: 100%;
     
     position: relative;
     overflow: hidden;
