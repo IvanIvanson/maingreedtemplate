@@ -547,6 +547,9 @@ html, body {
 
 .wrapper main .main-box .sertificate .containerslider .slider img {
   width: 100%;
+  aspect-ratio: 3/2;
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 
 @-moz-document url-prefix() {
@@ -1016,6 +1019,9 @@ html, body {
   }
   .wrapper main .main-box .sertificate .containerslider .slider img {
     width: 100%;
+    aspect-ratio: 3/2;
+    -o-object-fit: contain;
+       object-fit: contain;
   }
   @-moz-document url-prefix() {
     .wrapper main .main-box .sertificate .container {
