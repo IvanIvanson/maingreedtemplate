@@ -1,17 +1,19 @@
 @import 'vars';
 .containerslider{
-    max-width: 1009px;
-    // height: 100%;
+    position:relative;
+   width: 100%;
+ height: auto;
     margin: 0 auto;
     background-image:url('./images/sliderbg.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    
 .slider{
     height: 100%;
-    
     position: relative;
     overflow: hidden;
+   
     .slider__arrow{
     position: absolute;
     top:50%;
@@ -19,6 +21,7 @@
     outline: none;
     z-index: 1;
     cursor: pointer;
+   
 }
 .slider__arrow::before{
     content: '';
@@ -42,10 +45,14 @@
 }
 .slider__slide{
     display: none;
-    max-width: 100%;
+ max-width: 100%;
+
 }
 .slider__slide_active{
     display: block;
+    
+   
+
 }
 .slider__dots{
     position: absolute;
@@ -79,9 +86,11 @@
 }
 img {
 width: 100%;
-// height: 200px;
+
 aspect-ratio: 3/2;
 object-fit: contain;
+// display: block;
+      
 }
 
 }
