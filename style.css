@@ -891,6 +891,17 @@ html, body {
   .wrapper main .main-box .projects .slider-projects .row .container .progress .progress-bar .progress-item {
     width: 5px;
     height: 5px;
+    border: 1px solid var(--color-1);
+  }
+  .wrapper main .main-box .projects .slider-projects .row .container .left-handle .arrow {
+    width: 15px;
+    height: 15px;
+    border-width: 1px 1px 0 0;
+  }
+  .wrapper main .main-box .projects .slider-projects .row .container .right-handle .arrow {
+    width: 15px;
+    height: 15px;
+    border-width: 1px 1px 0 0;
   }
 }
 
